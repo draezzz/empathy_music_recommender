@@ -1,0 +1,5 @@
+Variant,Num_Features,ROC_AUC,Macro_F1,Brier_Score
+1_Context_Only,4,0.8566,0.7669,0.1534
+2_Skip_Only,7,0.8678,0.7804,0.1446
+3_Skip_Plus_Context,11,0.8812,0.7853,0.1403
+4_Full_With_User_Baseline,15,0.8851,0.7891,0.1384

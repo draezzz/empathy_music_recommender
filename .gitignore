@@ -1,0 +1,37 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Data, datasets & Hugging Face caches
+data/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+.cache/
+
+# Large binary model weights (share via Git LFS or GitHub Releases instead)
+**/outputs/models/*.joblib
+**/outputs/models/*.pkl
+**/outputs/models/*.bin
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env

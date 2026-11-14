@@ -1,0 +1,10 @@
+Model,Traffic,ROC_AUC,Macro_F1,Brier_Score
+LogisticRegression,All,0.8756,0.7884,0.143
+LogisticRegression,Organic (is_organic=1),0.8444,0.7596,0.1665
+LogisticRegression,Recommended (is_organic=0),0.9031,0.8161,0.1178
+RandomForest,All,0.8832,0.7876,0.1396
+RandomForest,Organic (is_organic=1),0.8532,0.757,0.1621
+RandomForest,Recommended (is_organic=0),0.909,0.817,0.1154
+LightGBM,All,0.8851,0.7891,0.1384
+LightGBM,Organic (is_organic=1),0.8555,0.7585,0.1609
+LightGBM,Recommended (is_organic=0),0.9107,0.8184,0.1144

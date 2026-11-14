@@ -1,0 +1,4 @@
+Target,Traffic,ROC_AUC,Macro_F1,Brier_Score
+next_skip_<30%,All,0.884,0.777,0.1403
+next_skip_<30%,Organic (is_organic=1),0.8538,0.7465,0.1643
+next_skip_<30%,Recommended (is_organic=0),0.9106,0.8069,0.1147

@@ -1,0 +1,16 @@
+Feature,Mean_Abs_SHAP
+curr_played_pct,0.8179465769983402
+mean_played_pct_last4,0.7665718443616397
+user_baseline_skip,0.33419555750296176
+session_elapsed_sec,0.28992676012549207
+session_position,0.237863273857037
+prev_gap_sec,0.15939976638142428
+is_organic,0.0567977697951589
+skip_rate_zscore,0.03372800137301603
+early_skip_ratio_last4,0.025395624115315207
+skip_burst,0.02518931235580101
+prior_like,0.015301400726790431
+skip_rate_last4,0.01307256305759092
+prior_dislike,5.703084470214761e-06
+curr_skip_50,0.0
+curr_skip_30,0.0

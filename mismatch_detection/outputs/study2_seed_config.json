@@ -1,0 +1,33 @@
+{
+  "dataset": "Yambda-50M (yandex/yambda, Apache 2.0)",
+  "sample_scope": {
+    "users": 2500,
+    "modeling_transitions": 11882997,
+    "base_next_skip_50_rate": 0.3589,
+    "base_next_skip_30_rate": 0.3224
+  },
+  "recommended_condition_b_rules": {
+    "rolling_window_tracks": 4,
+    "skip_burst_min_skips": 2,
+    "skip_threshold_played_pct": 50,
+    "early_skip_threshold_played_pct": 30,
+    "zscore_elevated_threshold": 1.0,
+    "confidence_cutoff": 0.6,
+    "empirical_next_skip_rate_no_burst_normal_z": 0.0982,
+    "empirical_next_skip_rate_with_burst_rec_traffic": 0.7071,
+    "act_only_at_track_boundary": true
+  },
+  "top_predictive_features_by_shap": [
+    "curr_played_pct",
+    "mean_played_pct_last4",
+    "user_baseline_skip",
+    "session_elapsed_sec",
+    "session_position",
+    "prev_gap_sec"
+  ],
+  "study1_limitations": [
+    "No browser/device volume telemetry in Yambda (validated in Study 2).",
+    "Wall-clock timestamps are anonymized relative seconds (hour_sin/cos validated in Study 2).",
+    "Next-track skip is a behavioral proxy for track-level dissatisfaction, not direct affect ground truth."
+  ]
+}
